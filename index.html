@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" charset="utf-8"></script>
+    <link rel="icon" href="img/favico.png">
+    <title>EtherDNA</title>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap" rel="stylesheet">
+    <script src="web3.js" charset="utf-8"></script>
+  </head>
+  <body>
+
+    <div id="logo"></div>
+    <p id="logot">EtherDNA</p>
+
+    <p id="howworks">How It Works?</p>
+    <p id="privacytips">Privacy Tips!</p>
+
+    <div class="signal" id="signal">  </div>
+
+    <div id="mainalert">
+      <div id="alertimg"></div>
+      <p id="mainalertt">EtherDNA is experimental software.Please use at your own risk.</p>
+    </div>
+
+
+    <div class="submain" id="newaccsubmain"><p id="newaccsubmaint">New Account</p></div>
+    <div class="submain" id="depositsubmain"><p id="depositsubmaint">Deposit</p></div>
+    <div class="submain" id="withdrawsubmain"><p id="withdrawsubmaint">Withdraw</p></div>
+
+
+  <a href="https://github.com/EtherDNA/app" target="_blank"> <div id="mutation">  &#9762;</div></a>
+        <div id="alertmutation">
+            <p id="alertmutationt">Mutate me on GitHub!</p>
+        </div>
+        <div class="arrow-down" id="arrowmutation"></div>
+
+
+
+    <div class="main" id="newaccmain">
+
+      <p id="newaccmain0">Enter your secure password with at least 10 characters:</p>
+      <input type="text" name="" value="" id="passwordvalue">
+      <p id="newaccmain1">Select value for deposit:</p>
+
+      <div id="linefordep"></div>
+      <div class="dot" id="dot0"></div>
+      <div class="dot" id="dot1"></div>
+      <div class="dot" id="dot2"></div>
+      <div class="dot" id="dot3"></div>
+      <p id="am0">0.01 ETH</p>
+      <p id="am1">0.1 ETH</p>
+      <p id="am2">1 ETH</p>
+      <p id="am3">10 ETH</p>
+
+      <div class="continuediv" id="newaccmaincontinue">
+        <p id="continuet">Continue</p>
+      </div>
+
+    </div>
+
+
+
+
+    <div class="main" id="depositmain">
+
+      <p id="depositmain0">You can deposit only on an existing account.</p>
+      <p id="depositmain1">Entr amount:</p>
+      <input type="text" name="" value="" id="depositmainvalue">
+      <p id="depositmain2">Enter recipient hash:</p>
+      <input type="text" name="" value="" id="depositmainhashvalue">
+
+      <div class="continuediv" id="depositmaincontinue">
+        <p id="continuet">Continue</p>
+      </div>
+
+    </div>
+
+
+
+    <div class="main" id="withdrawmain">
+
+      <p id="withdrawmain0">When you withdraw funds,account is permamently deleted. <br> Read more at <span id="spantips">Privcy tips.</span>  </p>
+      <p id="withdrawmain1">Enter password:</p>
+      <input type="text" name="" value="" id=withdrawmainpassword>
+      <p id="withdrawmain2">Enter Address:</p>
+        <input type="text" name="" value="" id="withdrawmainaddress">
+
+      <div class="continuediv" id="withdrawalmaincontinue">
+        <p id="continuet">Continue</p>
+      </div>
+    </div>
+
+
+    <div class="continueclickedheader" id="continueclickednewaccheader">
+      <p id="continueclickednewaccheadert">Confirm new Account</p>
+    </div>
+
+    <div class="continueclicked" id="continueclickednewacc">
+
+      <p id="continueclickednewacc0">Save Your Password!</p>
+      <p id="continueclickednewacc1">Be careful, it can not be recovered if you lose it.</p>
+      <p id="continueclickednewacc2">Your Password:</p>
+      <p id="continueclickednewaccpasswordvalue"></p>
+      <p id="continueclickednewacc3">Your Deposit Hash:</p>
+      <p id="continueclickednewaccdeposithash"></p>
+      <div class="connect" id="connectnewacc">
+        <p class="connectt">Connect</p>
+      </div>
+
+    </div>
+
+
+
+
+    <div class="continueclickedheader" id="continueclickedwithdraw">
+      <p id="continueclickedwithdrawt">Confirm Withdrawal</p>
+    </div>
+
+    <div class="continueclicked" id="continueclickeddeposit">
+      <p id="continueclickeddeposit0">Using this action you will get all sum of deposited ether.</p>
+      <p id="continueclickeddeposit1">After this action your pssword and deposite hash <br> will be deleted and cannot be reused!</p>
+      <p id="continueclickeddeposit2">Read more on <span>How It Works.</span> </p>
+      <p id="continueclickeddeposit3">You will get ether on this address:</p>
+      <p id="continueclickeddeposit4"></p>
+      <div class="connect" id="cnonnectwithdraw">
+        <p class="connectt">Connect</p>
+      </div>
+    </div>
+
+
+<div id="noprovider">
+  <div id="noprovideralert">
+    <p>Not possible to connect to the Web3 provider.<br>  Install  <span id="instammMetaMask" onClick="window.open('https://metamask.io/');">MetaMask</span> <br> <br> After installation reload page.</p>
+  </div>
+</div>
+
+<p id="tconfirmed">Transaction confirmed !</p>
+
+
+<div id="confirmtransalert">
+  <p id="confirmtransalertt">Confirm transaction !</p>
+</div>
+
+<div id="arrowup">
+
+</div>
+
+
+<p id="donationt">Donations address: <a href="https://etherscan.io/address/0x6fc4815603bd9f16a9b45b8c11b751894ad22627" target="_blank"> <span id="donationspan">0x6Fc4815603Bd9F16a9b45B8C11B751894Ad22627</span></a> </p>
+<p id="version">EtherDNA v0.1.0</p>
+  </body>
+</html>

@@ -1,0 +1,697 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: -webkit-gradient(linear, left top, right bottom, from(#25216E), to(#18022e)) fixed;
+}
+#logo{
+  position: absolute;
+  height: 110px;
+  width: 110px;
+  background-image: url("img/logo.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+   animation: rotation 30s infinite linear;
+   user-select: none;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+#logot{
+  position: absolute;
+  font-family: 'Anton', sans-serif;
+  color: white;
+  font-size:30px;
+  margin-top: 50px;
+  margin-left: 130px;
+  user-select: none;
+}
+
+#howworks{
+  font-family: 'Vollkorn', serif;
+  position: absolute;
+  color: #ADD1F1;
+  margin-top: 60px;
+  user-select: none;
+  cursor: pointer;
+}
+#privacytips{
+  font-family: 'Vollkorn', serif;
+  position: absolute;
+  color: #ADD1F1;
+  margin-top: 60px;
+  user-select: none;
+  cursor: pointer;
+
+}
+#signal {
+	background-color: #D12B99;
+	border-radius: 50%;
+	height: 20px;
+	width: 20px;
+  position: absolute;
+  margin-top: 60px;
+  cursor: pointer;
+}
+
+#signal {
+	box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+	transform: scale(1);
+	animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(163, 73, 164, 0.7);
+	}
+
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 30px rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+}
+#mainalert{
+  position: absolute;height: 40px;
+  width: 600px;
+  border: 0.1px solid #4D84AB;
+  margin-top: 170px;
+  user-select: none;
+}
+
+.submain{
+  height: 50px;
+  width: 150px;
+  border: 0.1px solid #384997;
+  position: absolute;
+  border-bottom: none;
+  user-select: none;
+  cursor: pointer;
+  margin-top: 300px;
+}
+#alertimg{
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  background-image: url("img/alert.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+#mainalertt{
+  position: absolute;
+  color: #C2E5F9;
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 20px;
+  margin-top: 7px;
+  margin-left: 50px;
+}
+#newaccsubmaint{
+  font-family: 'Signika Negative', sans-serif;
+  position: absolute;
+  margin-left: 23px;
+  color: #C2E5F9;
+  font-size: 19px;
+  margin-top: 15px;
+}
+#depositsubmaint{
+  font-family: 'Signika Negative', sans-serif;
+  position: absolute;
+  color: #C2E5F9;
+  margin-left: 40px;
+  font-size: 19px;
+  margin-top: 15px;
+
+}
+#withdrawsubmaint{
+  font-family: 'Signika Negative', sans-serif;
+  position: absolute;
+  color: #C2E5F9;
+  margin-left: 35px;
+  font-size: 19px;
+  margin-top: 15px;
+}
+#newaccsubmain{
+  background-color: #210864;
+}
+#newaccsubmain:hover{
+  background-color: #210864;
+}
+#depositsubmain:hover{
+  background-color: #210864;
+}
+#withdrawsubmain:hover{
+  background-color: #210864;
+}
+#mutation{
+  position: absolute;
+  font-size: 45px;
+  color: orange;
+  user-select: none;
+  cursor: pointer;
+  margin-top: 290px;
+}
+#alertmutation{
+  position: absolute;
+  height: 40px;
+  width: 250px;
+  background-color: #E2105B;
+  border-radius: 5px;
+  margin-top: 240px;
+  display: none;
+}
+#alertmutationt{
+  position: absolute;
+  font-family: 'Signika Negative', sans-serif;
+  color: #C2E5F9;
+  font-size: 20px;
+  margin-top: 8px;
+  margin-left: 30px;
+  user-select: none;
+
+}
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid #E2105B;
+  margin-top: 280px;
+  position: absolute;
+  display: none;
+}
+
+
+
+
+
+
+
+
+.main{
+  position: absolute;
+  height: 400px;
+  width: 600px;
+  margin-top: 350px;
+  border: 0.1px solid #384997;
+  user-select: none;
+}
+#newaccmain0{
+  font-family: 'Signika Negative', sans-serif;
+  position: absolute;
+  color: #D4F6FF;
+  margin-left: 20px;
+  font-size: 18px;
+  margin-top: 50px;
+}
+#passwordvalue{
+    width: 420px;
+    position: absolute;
+    background-color: transparent;
+    border: 0.1px solid #94FEBF;
+    color: #D4F6FF;
+    outline: none;
+    margin-top: 90px;
+    font-size: 20px;
+    margin-left: 20px;
+    text-align: center;
+  }
+#newaccmain1{
+    font-family: 'Signika Negative', sans-serif;
+    position: absolute;
+    color: #D4F6FF;
+    margin-left: 20px;
+    font-size: 18px;
+    margin-top: 190px;
+  }
+#linefordep{
+  position: absolute;
+  height: 3px;
+  width: 420px;
+  background-color: #94FEBF;
+  margin-top: 250px;
+  margin-left: 20px;
+}
+.dot{
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  margin-top: 240px;
+  background: transparent;
+  border: 1px solid #94FEBF;
+  cursor: pointer;
+  background-color: #1F096B;
+}
+#dot0{
+  margin-left: 40px;
+  background-color: #94FEBF;
+}
+#dot1{
+  margin-left: 160px;
+}
+#dot2{
+  margin-left: 280px;
+}
+#dot3{
+  margin-left: 400px;
+}
+.continuediv{
+  position: absolute;
+  height: 30px;
+  width: 420px;
+  background-color: #E2105B;
+  border-radius: 10px;
+  margin-left: 20px;
+  cursor: pointer;
+  margin-top: 340px;
+}
+#am0{
+  position: absolute;
+  font-family: 'Signika Negative', sans-serif;
+  margin-left: 20px;
+  margin-top: 270px;
+  font-size: 18px;
+  color: #D4F6FF;
+}
+#am1{
+  position: absolute;
+  font-family: 'Signika Negative', sans-serif;
+  margin-left: 140px;
+  margin-top: 270px;
+  font-size: 18px;
+  color: #D4F6FF;
+}
+#am2{
+  position: absolute;
+  font-family: 'Signika Negative', sans-serif;
+  margin-left: 270px;
+  margin-top: 270px;
+  font-size: 18px;
+  color: #D4F6FF;
+}
+#am3{
+  position: absolute;
+  font-family: 'Signika Negative', sans-serif;
+  margin-left: 390px;
+  margin-top: 270px;
+  font-size: 18px;
+  color: #D4F6FF;
+}
+#continuet{
+  position: absolute;
+  font-family: 'Vollkorn', serif;
+  margin-left: 170px;
+  font-size: 20px;
+  margin-top: 2px;
+  color: white;
+}
+
+
+
+
+#depositmain0{
+  font-family: 'Signika Negative', sans-serif;
+  position: absolute;
+  color: #D4F6FF;
+  margin-left: 20px;
+  font-size: 18px;
+  margin-top: 60px;
+}
+
+#depositmain1{
+  font-family: 'Signika Negative', sans-serif;
+  position: absolute;
+  color: #D4F6FF;
+  margin-left: 20px;
+  font-size: 18px;
+  margin-top: 90px;
+}
+#depositmainvalue{
+  width: 120px;
+  position: absolute;
+  background-color: transparent;
+  border: 0.1px solid #94FEBF;
+  color: #D4F6FF;
+  outline: none;
+  margin-top: 130px;
+  font-size: 20px;
+  margin-left: 20px;
+  text-align: center;
+}
+#depositmain2{
+  font-family: 'Signika Negative', sans-serif;
+  position: absolute;
+  color: #D4F6FF;
+  margin-left: 20px;
+  font-size: 18px;
+  margin-top: 220px;
+}
+#depositmainhashvalue{
+  width: 420px;
+  position: absolute;
+  background-color: transparent;
+  border: 0.1px solid #94FEBF;
+  color: #D4F6FF;
+  outline: none;
+  margin-top: 260px;
+  font-size: 20px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+#withdrawmain0{
+  font-family: 'Signika Negative', sans-serif;
+  position: absolute;
+  color: #D4F6FF;
+  margin-left: 20px;
+  font-size: 18px;
+  margin-top: 50px;
+}
+#spantips{
+  color: #E2105B;
+  cursor: pointer;
+  font-weight: bold;;
+}
+#withdrawmain1{
+  position: absolute;
+  font-family: 'Signika Negative', sans-serif;
+  margin-left: 20px;
+  margin-top: 120px;
+  font-size: 18px;
+  color: #D4F6FF;
+}
+
+#withdrawmainpassword{
+  width: 420px;
+  position: absolute;
+  background-color: transparent;
+  border: 0.1px solid #94FEBF;
+  color: #D4F6FF;
+  outline: none;
+  margin-top: 150px;
+  font-size: 20px;
+  margin-left: 20px;
+  text-align: center;
+}
+#withdrawmain2{
+  font-family: 'Signika Negative', sans-serif;
+  position: absolute;
+  color: #D4F6FF;
+  margin-left: 20px;
+  font-size: 18px;
+  margin-top: 230px;
+}
+
+#withdrawmainaddress{
+  width: 420px;
+  position: absolute;
+  background-color: transparent;
+  border: 0.1px solid #94FEBF;
+  color: #D4F6FF;
+  outline: none;
+  margin-top: 260px;
+  font-size: 20px;
+  margin-left: 20px;
+  text-align: center;
+}
+.continueclicked{
+  position: absolute;
+  height: 350px;
+  width: 470px;
+  margin-top: 400px;
+  border: 0.1px solid #384997;
+}
+.continueclickedheader{
+  position: absolute;
+  height: 50px;
+  width: 470px;
+  border: 0.1px solid #384997;
+  user-select: none;
+  color: #E2105B;
+  font-family: 'Anton', sans-serif;
+  font-size: 25px;
+  margin-top: 350px;
+}
+#continueclickednewaccheadert{
+  position: absolute;
+  margin-top: 7px;
+  margin-left: 125px;
+}
+#continueclickednewacc0{
+  position: absolute;
+  font-family: 'Signika Negative', sans-serif;
+  margin-left: 20px;
+  margin-top: 30px;
+  font-size: 17px;
+  color: #D4F6FF;
+  user-select: none;
+}
+#continueclickednewacc1{
+  position: absolute;
+  font-family: 'Signika Negative', sans-serif;
+  margin-left: 20px;
+  margin-top: 60px;
+  font-size: 19px;
+  color: #E2105B;
+  user-select: none;
+
+}
+#continueclickednewacc2{
+  position: absolute;
+  font-family: 'Signika Negative', sans-serif;
+  margin-left: 20px;
+  margin-top: 120px;
+  font-size: 17px;
+  color: #D4F6FF;
+  user-select: none;
+
+}
+#continueclickednewaccpasswordvalue{
+  position: absolute;
+  font-family: 'Signika Negative', sans-serif;
+  margin-left: 20px;
+  margin-top: 150px;
+  font-size: 18px;
+  background-color: #E2105B;
+  color: ghostwhite;
+}
+#continueclickednewacc3{
+  position: absolute;
+  font-family: 'Signika Negative', sans-serif;
+  margin-left: 20px;
+  margin-top: 220px;
+  font-size: 17px;
+  color: #D4F6FF;
+  user-select: none;
+
+}
+#continueclickednewaccdeposithash{
+  position: absolute;
+  font-family: 'Signika Negative', sans-serif;
+  margin-left: 20px;
+  margin-top: 250px;
+  font-size: 13px;
+  background-color: #E2105B;
+  color: ghostwhite;
+}
+.connect{
+  position: absolute;
+  height: 30px;
+  width: 120px;
+  background-color: #E2105B;
+  border-radius: 10px;
+  margin-left: 20px;
+  cursor: pointer;
+  margin-top: 300px;
+  user-select: none;
+}
+.connectt{
+  font-family: 'Vollkorn', serif;
+  margin-top: 5px;
+  color: ghostwhite;
+  margin-left: 30px;
+}
+
+#continueclickedwithdrawt{
+  position: absolute;
+  margin-top: 7px;
+  margin-left: 125px;
+}
+
+#continueclickeddeposit0{
+  position: absolute;
+  font-family: 'Signika Negative', sans-serif;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 17px;
+  color: #D4F6FF;
+  user-select: none;
+}
+#continueclickeddeposit1{
+  position: absolute;
+  font-family: 'Signika Negative', sans-serif;
+  margin-left: 20px;
+  margin-top: 60px;
+  font-size: 17px;
+  color: #D4F6FF;
+  user-select: none;
+}
+
+#continueclickeddeposit2{
+  position: absolute;
+  font-family: 'Signika Negative', sans-serif;
+  margin-left: 20px;
+  margin-top: 120px;
+  font-size: 17px;
+  color: #D4F6FF;
+  user-select: none;
+}
+#continueclickeddeposit3{
+  position: absolute;
+  font-family: 'Signika Negative', sans-serif;
+  margin-left: 20px;
+  margin-top: 180px;
+  font-size: 17px;
+  color: #D4F6FF;
+  user-select: none;
+}
+
+#continueclickeddeposit4{
+  position: absolute;
+  font-family: 'Signika Negative', sans-serif;
+  margin-left: 20px;
+  margin-top: 220px;
+  font-size: 17px;
+  background-color: #E2105B;
+  color: ghostwhite;
+}
+#noprovider{
+  position: absolute;
+  height: 1000px;
+  width: 100%;
+  background-color: rgba(255, 0, 0, 0.5);
+  display: none;
+}
+#noprovideralert{
+  height: 100px;
+  width: 400px;
+  background-color: rgb(233, 0, 0);
+  border-radius: 10px;
+  position: fixed;
+  text-align: center;
+  color: ghostwhite;
+}
+#instammMetaMask{
+  color: black;
+  cursor: pointer;
+}
+
+#tconfirmed{
+  position: absolute;
+  font-family: 'Signika Negative', sans-serif;
+  color: #c2e5f9;
+  font-size: 20px;
+  margin-top: 170px;
+  border: 1px solid #D12B99;
+  display: none;
+}
+#confirmtransalert{
+  position: fixed;
+  height: 40px;
+  width: 200px;
+  background-color: #D12B99;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 10px;
+  display: none;
+}
+#confirmtransalertt{
+  color: ghostwhite;
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 17px;
+  margin-top: 10px;
+}
+#confirmtransalert{
+}
+
+#arrowup {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #D12B99;
+  position: fixed;
+  margin-top: 10px;
+  display: none;
+}
+#donationt{
+  position: absolute;
+  font-size: 13px;
+  font-family: 'Signika Negative', sans-serif;
+  color: ghostwhite;
+  margin-top: 850px;
+}
+#donationspan{
+  color: #c2e5f9;
+  cursor: pointer;
+}
+#version{
+  position: absolute;
+  font-size: 13px;
+  font-family: 'Signika Negative', sans-serif;
+  color: ghostwhite;
+  margin-top: 870px;
+}
+
+
+
+
+
+
+#continueclickednewaccheader{
+  display: none;
+}
+#continueclickednewacc{
+  display: none;
+}
+
+
+
+
+
+
+
+#continueclickedwithdraw{
+  display: none;
+}
+#continueclickeddeposit{
+  display: none;
+}
+
+
+
+
+
+
+
+
+#depositmain{
+  display: none;
+}
+#withdrawmain{
+  display: none;
+}
