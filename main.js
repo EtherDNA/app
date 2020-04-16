@@ -188,6 +188,7 @@ document.getElementById("dot0").addEventListener("click", function(){
   document.getElementById("dot1").style.backgroundColor="#1F096B";
   document.getElementById("dot2").style.backgroundColor="#1F096B";
   document.getElementById("dot3").style.backgroundColor="#1F096B";
+   amount=0.01;
 });
 //
 //dot shows
